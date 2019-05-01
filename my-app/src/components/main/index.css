@@ -1,0 +1,15 @@
+.card-img {
+    /* max-width:200px; */
+    padding: 5%;
+    max-width: auto;
+
+}
+
+.card {
+    padding: 10px;
+    max-width: 150px ;
+    height: auto;
+    margin: 10px 10px;
+    border: solid, gray;
+    box-shadow:0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+}
