@@ -30,12 +30,12 @@ class App extends React.Component {
     let clickedPics = this.state.clicked;
     let score = this.state.score;
     let topScore = this.state.topScore;
-
+    this.handleShuffle();
     if (clickedPics.indexOf(id) === -1) {
       clickedPics.push(id);
       console.log(clickedPics);
       //shuffle  
-      this.handleShuffle();
+      
       // then run the score function
       this.handleIncrement();
     } else if (score === 12) {
