@@ -1,7 +1,32 @@
 h1{
-    color: brown;
+    color: chocolate;
+    font-family: 'Indie Flower', cursive;
+}
+
+h3 {
+    font-family: 'Cutive Mono', monospace;
+    
 }
 
 .jumbotron{
+    /* display: block; */
+    position: relative;
+    z-index: 998;
+    margin-top: 190px;
+   
+
+}
+
+.jumbotron::before{
+    background-image: url(https://media.licdn.com/dms/image/C4E1BAQHpVmMi3wsupA/company-background_10000/0?e=1557266400&v=beta&t=pXy6ZLEdFtTqXU6WuMIClFRWU96LvAuB0KH7d9YoYss);
+    background-size: cover;
+    content: "";
     display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.3;
 }

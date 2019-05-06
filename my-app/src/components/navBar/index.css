@@ -2,5 +2,24 @@
     position: fixed;
     margin-bottom: 5px;
     display:block;
-    width: 100%;
+    height: 210px;
+    width: 105%;
+    z-index: 999;
+    overflow: hidden;
+    border-bottom: 15px solid;
+    border-image: url(https://www.textures.com/system/gallery/photos/Wood/Fine%20Wood/121471/WoodFine0058_30_270.jpg) 30 repeat ;
+}
+
+.scores{
+    color: chocolate;
+    font-size: 22pt;
+    font-family: 'Cutive Mono', monospace;
+    margin-bottom: 10px;
+    
+    
+}
+
+.title {
+    margin-top: 2px;
+    font-family: 'Indie Flower', cursive;
 }
